@@ -1,6 +1,7 @@
 check50:
   checks:
     hello world:
+      - run: make hello
       - run: ./hello
         stdout: Hello, world!
         exit: 0
